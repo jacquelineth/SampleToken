@@ -1,0 +1,22 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/SampleToken//SampleToken/xomSchema.xsd"
+property uuid "7bbfb0a8-e23f-4b96-bdc7-6ae632228153"
+package org.example.xomschema;
+
+
+public class Token
+        extends ilog.rules.xml.IlrXmlObject
+{
+    public string ID domain 0,1;
+    public org.example.xomschema.Token Next;
+    public org.example.xomschema.Token Previous;
+    public string Value domain 0,1;
+    public boolean first domain 0,1;
+    public boolean last domain 0,1;
+    public Token();
+    public static org.example.xomschema.Token CreateNewToken();
+    public void setUnknownFirst();
+    public void setUnknownLast();
+}
+

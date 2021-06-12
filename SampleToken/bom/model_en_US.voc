@@ -1,0 +1,20 @@
+# Vocabulary Properties
+uuid = 2cbbe225-9d95-4e34-ae8f-10e9940913e5
+
+# org.example.xomschema.Token
+org.example.xomschema.Token#concept.label = token
+org.example.xomschema.Token.CreateNewToken()#phrase.navigation = .Create New Token
+org.example.xomschema.Token.ID#phrase.action = set the ID of {this} to {ID}
+org.example.xomschema.Token.ID#phrase.navigation = {ID} of {this}
+org.example.xomschema.Token.Next#phrase.action = set the next of {this} to {next}
+org.example.xomschema.Token.Next#phrase.navigation = {next} of {this}
+org.example.xomschema.Token.Previous#phrase.action = set the previous of {this} to {previous}
+org.example.xomschema.Token.Previous#phrase.navigation = {previous} of {this}
+org.example.xomschema.Token.Value#phrase.action = set the value of {this} to {value}
+org.example.xomschema.Token.Value#phrase.navigation = {value} of {this}
+org.example.xomschema.Token.first#phrase.action = make it {first} that {this} is first
+org.example.xomschema.Token.first#phrase.navigation = {this} is first
+org.example.xomschema.Token.last#phrase.action = make it {last} that {this} is last
+org.example.xomschema.Token.last#phrase.navigation = {this} is last
+org.example.xomschema.Token.setUnknownFirst()#phrase.action = setUnknownFirst {this}
+org.example.xomschema.Token.setUnknownLast()#phrase.action = setUnknownLast {this}

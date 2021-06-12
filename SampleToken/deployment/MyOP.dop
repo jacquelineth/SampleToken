@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="MyOP" usingRuleflow="true" ruleflowName="MainFlaow" targetRuleProjectName="SampleToken">
+  <name>MyOP</name>
+  <uuid>61d3c923-3931-45b8-a710-812238ad65ff</uuid>
+  <referencedVariables variableName="myVar" variableSetName="Param" direction="IN_OUT">
+    <variableSet href="../rules/Param.var#6630d81b-0074-432a-b831-bf8f1844755f"/>
+  </referencedVariables>
+  <ruleflow href="../rules/MainFlaow.rfl#fe319e0e-6dbb-46ba-bf8a-402b5e447f89"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="MyOP_extractor" validator="Default Validator"/>
+  <targetRuleProject href="../../SampleToken#af848c13-87d3-4aeb-8f6f-05e60efb1d98"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

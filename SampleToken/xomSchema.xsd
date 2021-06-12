@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/xomSchema" xmlns:tns="http://www.example.org/xomSchema" elementFormDefault="qualified">
+
+    <include schemaLocation=""></include>
+    <complexType name="Token">
+    	<sequence>
+    		<element ref="tns:Previous"></element>
+    		<element ref="tns:Next"></element>
+    	</sequence>
+    	<attribute name="ID" type="string"></attribute>
+    	<attribute name="Value" type="string"></attribute>
+    	<attribute name="first" type="boolean"></attribute>
+    	<attribute name="last" type="boolean"></attribute>
+    </complexType>
+
+    <element name="Previous" type="tns:Token"></element>
+    <element name="Next" type="tns:Token"></element>
+</schema>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Param</name>
+  <uuid>6630d81b-0074-432a-b831-bf8f1844755f</uuid>
+  <variables name="myVar" type="org.example.xomschema.Token" initialValue="" verbalization="myVar"/>
+</ilog.rules.studio.model.base:VariableSet>
