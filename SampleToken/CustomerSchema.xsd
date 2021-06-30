@@ -3,5 +3,18 @@
     <complexType name="Customer">
     	<attribute name="ID" type="string" use="required" form="qualified"></attribute>
     </complexType>
+       <complexType name="Token">
+    	<sequence>
+    		<element ref="tns:Previous"></element>
+    		<element ref="tns:Next"></element>
+    	</sequence>
+    	<attribute name="ID" type="string"></attribute>
+    	<attribute name="Value" type="string"></attribute>
+    	<attribute name="first" type="boolean"></attribute>
+    	<attribute name="last" type="boolean"></attribute>
+    </complexType>
 
+    <element name="Previous" type="tns:Token"></element>
+    <element name="Next" type="tns:Token"></element>
+    <element name="Client" type="tns:Customer"></element>
 </schema>
