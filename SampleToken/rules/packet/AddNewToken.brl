@@ -3,4 +3,10 @@
   <name>AddNewToken</name>
   <uuid>09736aee-4f08-4984-96a9-3152a5db0458</uuid>
   <locale>en_US</locale>
+  <definition><![CDATA[definitions 
+	set 'variable1' to  a token ; 
+	set  'variable2'to a token ; 
+	set 'quote' to  (60.0 /100.0 )* the interest payable of variable2  ;
+if the principal amount of variable1  is more than (60.0 /100.0 )* the interest payable of variable2  
+then set the previous of variable1 to variable2 ; set the next of variable2 to variable1 ;    ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

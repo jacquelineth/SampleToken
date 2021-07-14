@@ -6,11 +6,15 @@
     	<sequence>
     		<element ref="tns:Previous"></element>
     		<element ref="tns:Next"></element>
+    		<element name="Principal_Amount" type="decimal"></element>
+    		<element name="Interest_payable" type="decimal" minOccurs="0"></element>
     	</sequence>
     	<attribute name="ID" type="string"></attribute>
     	<attribute name="Value" type="string"></attribute>
     	<attribute name="first" type="boolean"></attribute>
     	<attribute name="last" type="boolean"></attribute>
+    	<attribute name="floatValue" type="float"></attribute>
+    	<attribute name="doubleValue" type="double"></attribute>
     </complexType>
 
     <element name="Previous" type="tns:Token"></element>

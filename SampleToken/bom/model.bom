@@ -9,14 +9,21 @@ public class Token
         extends ilog.rules.xml.IlrXmlObject
 {
     public string ID domain 0,1;
+    public java.math.BigDecimal Interest_payable domain 0,1;
     public org.example.xomschema.Token Next;
     public org.example.xomschema.Token Previous;
+    public java.math.BigDecimal Principal_Amount;
     public string Value domain 0,1;
+    public double doubleValue domain 0,1;
     public boolean first domain 0,1;
+    public float floatValue domain 0,1
+                property deprecated "true";
     public boolean last domain 0,1;
     public Token();
     public static org.example.xomschema.Token CreateNewToken();
+    public void setUnknownDoubleValue();
     public void setUnknownFirst();
+    public void setUnknownFloatValue();
     public void setUnknownLast();
 }
 
