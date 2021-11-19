@@ -1,26 +1,22 @@
 
 property loadGetterSetterAsProperties "true"
 property origin "xom:/SampleToken//SampleToken/xomSchema.xsd"
-property uuid "7bbfb0a8-e23f-4b96-bdc7-6ae632228153"
+property uuid "6a038e2b-feb6-4fab-8a42-7042f7abfa32"
 package org.example.xomschema;
 
 
 public class Token
         extends ilog.rules.xml.IlrXmlObject
 {
-    public string ID domain 0,1;
-    public java.math.BigDecimal Interest_payable domain 0,1;
-    public org.example.xomschema.Token Next;
-    public org.example.xomschema.Token Previous;
-    public java.math.BigDecimal Principal_Amount;
+    public string Category domain {"small", "medium", "large", "huge"};
+    public string ID domain 0,1
+                property update "true";
     public string Value domain 0,1;
     public double doubleValue domain 0,1;
     public boolean first domain 0,1;
-    public float floatValue domain 0,1
-                property deprecated "true";
+    public float floatValue domain 0,1;
     public boolean last domain 0,1;
     public Token();
-    public static org.example.xomschema.Token CreateNewToken();
     public void setUnknownDoubleValue();
     public void setUnknownFirst();
     public void setUnknownFloatValue();

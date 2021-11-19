@@ -4,10 +4,11 @@
     <include schemaLocation=""></include>
     <complexType name="Token">
     	<sequence>
-    		<element ref="tns:Previous"></element>
-    		<element ref="tns:Next"></element>
-    		<element name="Principal_Amount" type="decimal"></element>
-    		<element name="Interest_payable" type="decimal" minOccurs="0"></element>
+    		<element name="Category" type="tns:Domain"></element>
+<!--     		<element ref="tns:Previous"></element> -->
+<!--     		<element ref="tns:Next"></element> -->
+<!--     		<element name="Principal_Amount" type="decimal"></element> -->
+<!--     		<element name="Interest_payable" type="decimal"	minOccurs="0">    		</element> -->
     	</sequence>
     	<attribute name="ID" type="string"></attribute>
     	<attribute name="Value" type="string"></attribute>
@@ -17,6 +18,14 @@
     	<attribute name="doubleValue" type="double"></attribute>
     </complexType>
 
-    <element name="Previous" type="tns:Token"></element>
-    <element name="Next" type="tns:Token"></element>
+<!--     <element name="Previous" type="tns:Token" nillable="true"></element> -->
+<!--     <element name="Next" type="tns:Token" nillable="true"></element> -->
+
+	<simpleType name="Domain">
+	  <restriction base="string">
+	    <enumeration value="small"/>
+	    <enumeration value="medium"/>
+	    <enumeration value="large"/>
+	  </restriction>
+	</simpleType>
 </schema>

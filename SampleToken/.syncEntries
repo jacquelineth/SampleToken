@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://localhost:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="2785692706" projectName="SampleToken" qualifiedName="model" sourceCS="D869BA4EAD9964C49693B653CF5C272C" targetCS="2785692706" type="B2XMapping" uuid="5965ed35-3642-4eba-ba5f-7bb02ecb1e63"/>
+<entry baseType="BRLRule" checksum="1665421253" projectName="SampleToken" qualifiedName="packet.AddNewToken" sourceCS="7D7B101D702CE54F6F080A66D12A8B03" targetCS="1665421253" type="BRLRule" uuid="09736aee-4f08-4984-96a9-3152a5db0458"/>
+<entry baseType="BRLRule" checksum="713656996" projectName="SampleToken" qualifiedName="packet.AddNOldToken" sourceCS="005E1DD56A68D374D39D59CE3318F41A" targetCS="713656996" type="BRLRule" uuid="bb43e65f-617b-40b6-9c47-649067b0dd16"/>
+<entry baseType="BRLRule" checksum="4044026485" projectName="SampleToken" qualifiedName="packet.TS005935453" sourceCS="7D908059B5E65CDAC433EA0575DA41EB" targetCS="4044026485" type="BRLRule" uuid="24010eb6-abb8-458a-89fe-7078981fea75"/>
+<entry baseType="BusinessObjectModel" checksum="2785692706" projectName="SampleToken" qualifiedName="model" sourceCS="E61B8C509CFE495F6ED3FD7276ACB888" targetCS="2785692706" type="BusinessObjectModel" uuid="6a038e2b-feb6-4fab-8a42-7042f7abfa32"/>
+<entry baseType="DecisionOperation" checksum="1542139705" projectName="SampleToken" qualifiedName="MyOP" sourceCS="74591778D4562581676D05F2CD9B6117" targetCS="1542139705" type="DecisionOperation" uuid="61d3c923-3931-45b8-a710-812238ad65ff"/>
+<entry baseType="Resource" checksum="4117565017" projectName="SampleToken" qualifiedName="xomSchema.xsd" sourceCS="BCD726CEB5E4F252827C9419E3C37292" targetCS="4117565017" type="Resource" uuid="xomSchema.xsd"/>
+<entry baseType="Ruleflow" checksum="2489216566" projectName="SampleToken" qualifiedName="MainFlaow" sourceCS="20648EA397202A0BED122C4094FC9161" targetCS="2489216566" type="Ruleflow" uuid="fe319e0e-6dbb-46ba-bf8a-402b5e447f89"/>
+<entry baseType="RulePackageInfo" checksum="375328990" projectName="SampleToken" qualifiedName="packet" sourceCS="4DE044E277AFB59A4CF631B07215A9C8" targetCS="375328990" type="RulePackageInfo" uuid="542206e2-0b82-4566-ad3d-e48defcfc708"/>
+<entry baseType="RuleProjectInfo" checksum="830586893" projectName="SampleToken" qualifiedName="SampleToken" sourceCS="C926F495A6C6AFF98583564B3B1F6409" targetCS="830586893" type="RuleProjectInfo" uuid="af848c13-87d3-4aeb-8f6f-05e60efb1d98"/>
+<entry baseType="VariableSet" checksum="346320246" projectName="SampleToken" qualifiedName="Param" sourceCS="73D9112865F10E7A1BF34208A1203A04" targetCS="346320246" type="VariableSet" uuid="6630d81b-0074-432a-b831-bf8f1844755f"/>
+<entry baseType="Vocabulary" checksum="2785692706" projectName="SampleToken" qualifiedName="model_en_US" sourceCS="04607D8526738B5DA9099F7245CD50E4" targetCS="2785692706" type="Vocabulary" uuid="19890a86-d107-4a09-8d8a-3869dc9cee49"/>
+</teamserver>
+</teamservers>

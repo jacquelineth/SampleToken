@@ -1,19 +1,12 @@
 # Vocabulary Properties
-uuid = 2cbbe225-9d95-4e34-ae8f-10e9940913e5
+uuid = 19890a86-d107-4a09-8d8a-3869dc9cee49
 
 # org.example.xomschema.Token
 org.example.xomschema.Token#concept.label = token
-org.example.xomschema.Token.CreateNewToken()#phrase.navigation = .Create New Token
+org.example.xomschema.Token.Category#phrase.action = set the category of {this} to {category}
+org.example.xomschema.Token.Category#phrase.navigation = {category} of {this}
 org.example.xomschema.Token.ID#phrase.action = set the ID of {this} to {ID}
 org.example.xomschema.Token.ID#phrase.navigation = {ID} of {this}
-org.example.xomschema.Token.Interest_payable#phrase.action = set the interest payable of {this} to {interest payable}
-org.example.xomschema.Token.Interest_payable#phrase.navigation = {interest payable} of {this}
-org.example.xomschema.Token.Next#phrase.action = set the next of {this} to {next}
-org.example.xomschema.Token.Next#phrase.navigation = {next} of {this}
-org.example.xomschema.Token.Previous#phrase.action = set the previous of {this} to {previous}
-org.example.xomschema.Token.Previous#phrase.navigation = {previous} of {this}
-org.example.xomschema.Token.Principal_Amount#phrase.action = set the principal amount of {this} to {principal amount}
-org.example.xomschema.Token.Principal_Amount#phrase.navigation = {principal amount} of {this}
 org.example.xomschema.Token.Value#phrase.action = set the value of {this} to {value}
 org.example.xomschema.Token.Value#phrase.navigation = {value} of {this}
 org.example.xomschema.Token.doubleValue#phrase.action = set the double value of {this} to {double value}
@@ -24,5 +17,3 @@ org.example.xomschema.Token.floatValue#phrase.action = set the float value of {t
 org.example.xomschema.Token.floatValue#phrase.navigation = {float value} of {this}
 org.example.xomschema.Token.last#phrase.action = make it {last} that {this} is last
 org.example.xomschema.Token.last#phrase.navigation = {this} is last
-org.example.xomschema.Token.setUnknownFirst()#phrase.action = setUnknownFirst {this}
-org.example.xomschema.Token.setUnknownLast()#phrase.action = setUnknownLast {this}

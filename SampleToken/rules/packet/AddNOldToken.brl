@@ -10,7 +10,7 @@
 	set 'quote' to the float value of variable2  * (35.0 /100.0 );
 	set 'quote2' to   (35.0 /100.0 )*  the float value of variable2  ;
 
-then set the previous of variable1 to variable2 ; set the next of variable2 to variable1 ;    
+then 
 set the float value of variable1 to quote; 
 set the double value of variable1 to quote2  ; ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

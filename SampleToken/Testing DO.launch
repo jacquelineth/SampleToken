@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="ilog.rules.studio.testing.ds.launchConfiguration">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/SampleToken/deployment/MyOP"/>
+<stringAttribute key="ilog.rules.studio.testing.EXCEL_FILE" value="/SampleToken/testsuite.xlsx"/>
+<stringAttribute key="ilog.rules.studio.testing.RULE_PROJECT" value="SampleToken"/>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.CLASSPATH_PROVIDER" value="com.ibm.rules.studio.testing.ui.testingClasspathProviderId"/>
+</launchConfiguration>
